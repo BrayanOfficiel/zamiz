@@ -46,6 +46,10 @@
 
 /* Add similar @font-face rules for the other Montserrat font files */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -162,6 +166,7 @@ body,
     width: 50px;
     cursor: pointer;
     animation: fleche 1s infinite;
+	scroll-behavior: smooth;
 }
 
 .section2 {
