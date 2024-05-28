@@ -137,6 +137,33 @@ body,
     z-index: 3;
 }
 
+.section1 .fleche {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+@keyframes fleche {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+    
+}
+
+.section1 .fleche img {
+    width: 50px;
+    cursor: pointer;
+    animation: fleche 1s infinite;
+}
+
 .section2 {
     display: flex;
     justify-content: center;
